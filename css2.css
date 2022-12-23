@@ -13,16 +13,16 @@ body {
     color: white;
     height: 25vh;
     width: 100vw;
-    background-color: black;
+    background: linear-gradient(grey, black);
 }
 #TitleDivider {
-    margin: 1vh;
+    padding: 1vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     font-family: 'Harry Potter', sans-serif;
     font-size: 5vh;
 }
@@ -31,8 +31,6 @@ body {
     color: white;
     font-family: monospace;
     display: flex;
-    
-
     height: 20vh;
     background-color: blue;
     display: grid;
@@ -54,14 +52,14 @@ body {
     display: block;
 }
 [id*='top'] {
-    
+    height: 12vh;
     display: block;
     font-size: 4vh;
 }
 [id*='bottom'] {
     
     display: block;
-    font-size: 2vh;
+    font-size: 1.9vh;
 }
 #HP1 {    
     background-image: url("./ASSETS/HP1.png");
