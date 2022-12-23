@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#header {
+    font-size: 6vh;
+    font-family: monospace;
+    display: flex;
+justify-content: center;
+align-items: center;
+    text-align: center;
+    color: white;
+    height: 25vh;
+    width: 100vw;
+    background-color: black;
+}
