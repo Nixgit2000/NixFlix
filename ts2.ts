@@ -1,4 +1,4 @@
-var enlargeFont = document.getElementById("header");
+var enlargeFont = <HTMLElement>document.getElementById("header");
 
 enlargeFont.addEventListener("mouseover", function function1() {
     enlargeFont.style.scale = "1.05";
