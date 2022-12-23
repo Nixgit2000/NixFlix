@@ -3,16 +3,61 @@ body {
     padding: 0;
 }
 
-
 #header {
     font-size: 6vh;
     font-family: monospace;
     display: flex;
-justify-content: center;
-align-items: center;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     color: white;
     height: 25vh;
     width: 100vw;
     background-color: black;
+}
+
+#TwoDivider {
+    font-size: 3vh;
+    color: white;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20vh;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+[id*='HP'] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    height: 20vh;
+}
+#HP1 {    
+    background-image: url("./ASSETS/HP1.png");
+}
+#HP2 {    
+    background-image: url("./ASSETS/HP2.png");
+}
+#HP3 {    
+    background-image: url("./ASSETS/HP3.png");
+}
+#HP4 {    
+    background-image: url("./ASSETS/HP4.png");
+}
+#HP5 {    
+    background-image: url("./ASSETS/HP5.png");
+}
+#HP6 {    
+    background-image: url("./ASSETS/HP6.png");
+}
+#HP7 {    
+    background-image: url("./ASSETS/HP7.png");
+}
+#HP8 {    
+    background-image: url("./ASSETS/HP8.png");
 }
