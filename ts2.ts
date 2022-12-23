@@ -1,7 +1,8 @@
-function addNumbers(a: number, b: number) { 
-    return a + b; 
-} 
+var enlargeFont = document.getElementById("header");
 
-var sum: number = addNumbers(10, 15) 
-
-console.log('Sum of the two numbers is: ' +sum); 
+enlargeFont.addEventListener("mouseover", function function1() {
+    enlargeFont.style.scale = "1.05";
+})
+enlargeFont.addEventListener("mouseout", function function1() {
+    enlargeFont.style.scale = "1.00";
+})
