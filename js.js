@@ -4,7 +4,10 @@ var enlargeFont2 = document.getElementById("title2");
 var enlargeFont3 = document.getElementById("title3");
 var enlargeFont4 = document.getElementById("title4");
 var enlargeFont5 = document.getElementById("title5");
+var enlargeFont6 = document.getElementById("title6");
+var enlargeFont7 = document.getElementById("title7");
 
+var gifBackdrop6 = document.getElementById("TitleDivider6");
 
 
 enlargeFont.addEventListener("mouseover", function function1() {
@@ -47,5 +50,19 @@ enlargeFont5.addEventListener("mouseover", function function1() {
 });
 enlargeFont5.addEventListener("mouseout", function function1() {
     enlargeFont5.style.scale = "1.00";
+});
+
+enlargeFont6.addEventListener("mouseover", function function1() {
+    enlargeFont6.style.scale = "1.1";
+});
+enlargeFont6.addEventListener("mouseout", function function1() {
+    enlargeFont6.style.scale = "1.00";
+});
+
+enlargeFont7.addEventListener("mouseover", function function1() {
+    enlargeFont7.style.scale = "1.1";
+});
+enlargeFont7.addEventListener("mouseout", function function1() {
+    enlargeFont7.style.scale = "1.00";
 });
 

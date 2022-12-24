@@ -5,6 +5,7 @@ body {
     padding: 0;
     overflow-x: hidden;
     caret-color: transparent;
+    user-select: none;
 }
 body::-webkit-scrollbar {
 	display: none; 
@@ -40,6 +41,17 @@ h1 {
 h1 {
    font-family: SW;
 }
+
+@font-face { font-family: MX; src: url('./Fonts/MatrixFont/matrix.ttf'); } 
+h1 {
+   font-family: MX;
+}
+
+@font-face { font-family: ST; src: url('./Fonts/StarTrekFont/StarTrek.ttf'); } 
+h1 {
+   font-family: ST;
+}
+
 
 #header {
     position: fixed;
@@ -350,7 +362,7 @@ h1 {
     background-position: 50% 50%;
     color: yellow;
     font-family: 'SW', sans-serif;
-    font-size: 8vh;
+    font-size: 7vh;
 }
 [id*='SW'] {
     font-family: 'SW', sans-serif;
@@ -404,4 +416,122 @@ h1 {
 }
 #SW9 {    
     background-image: url("./ASSETS/SW9.png");
+}
+
+
+#Matrix {
+    font-size: 3vh;
+    color: white;
+
+    height: 20vh;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+[id*='Matrix'] {
+    font-family: 'MX', sans-serif;
+    text-shadow: 2px 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 20vh;
+}
+#TitleDivider6 {
+    text-shadow: 1px 1px white;
+    height: 10vh;
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url("https://i.pinimg.com/originals/1d/a3/66/1da3663ce1d7d0f6098a31a667e862b4.gif");
+    color: rgb(12, 236, 65);
+    font-family: 'MX', sans-serif;
+    font-size: 8vh;
+}
+[id*='top6'] {
+    height: 12vh;
+    display: block;
+    font-size: 4vh;
+}
+[id*='bottom6'] {
+    
+    display: block;
+    font-size: 5vh;
+}
+#Matrix1 {    
+    background-image: url("./ASSETS/M1.png");
+    background-position: 50% 20%;
+}
+#Matrix2 {    
+    background-image: url("./ASSETS/M2.png");
+    background-position: 50% 20%;
+}
+#Matrix3 {    
+    background-image: url("./ASSETS/M3.png");
+    background-position: 50% 50%;
+    background-size: cover;
+}
+#Matrix4 {    
+    background-image: url("./ASSETS/M4.png");
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+
+#StarTrek {
+    font-size: 3vh;
+    color: white;
+
+    height: 20vh;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+[id*='StarTrek'] {
+    font-family: 'ST', sans-serif;
+    text-shadow: 2px 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 20vh;
+}
+#TitleDivider7 {
+    text-shadow: 1px 1px blue;
+    height: 10vh;
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'ST', sans-serif;
+    font-size: 10vh;
+}
+[id*='top7'] {
+    height: 12vh;
+    display: block;
+    font-size: 4vh;
+}
+[id*='bottom7'] {
+    
+    display: block;
+    font-size: 5vh;
+}
+#StarTrek1 {    
+    background-image: url("./ASSETS/ST1.png");
+    background-position: 50% 30%;
+}
+#StarTrek2 {    
+    background-image: url("./ASSETS/ST2.png");
+    background-position: 50% 20%;
 }
