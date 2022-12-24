@@ -15,6 +15,12 @@ a:hover { text-decoration: none; color:whitesmoke; }
 a:focus { text-decoration: none; color:whitesmoke; }
 a:active { text-decoration: none; color:whitesmoke; }
 
+@keyframes zoom {
+    0% {scale: 1}
+    50% {scale: 1.01}
+    100% {scale: 1}
+}
+
 @font-face { font-family: LOTR; src: url('./Fonts/LOTRfont1/LOTR.TTF'); } 
 h1 {
    font-family: LOTR;
@@ -56,9 +62,19 @@ h1 {
     color: white;
     font-family: monospace;
     height: 20vh;
-    background-color: blue;
+    background-color: black;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
+}
+#HP1 {
+    font-size: 3vh;
+    color: white;
+    font-family: monospace;
+    height: 20vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    animation: zoom 10s;
 }
 #TitleDivider1 {
     text-shadow: 1px 1px grey;
@@ -68,7 +84,7 @@ h1 {
     align-items: center;
     text-align: center;
     background-color: black;
-    color: gold;
+    color: silver;
     font-family: 'Harry Potter', sans-serif;
     font-size: 5vh;
 }

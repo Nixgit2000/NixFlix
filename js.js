@@ -6,6 +6,7 @@ var enlargeFont4 = document.getElementById("title4");
 var enlargeFont5 = document.getElementById("title5");
 
 
+
 enlargeFont.addEventListener("mouseover", function function1() {
     enlargeFont.style.scale = "1.1";
 });
@@ -47,5 +48,4 @@ enlargeFont5.addEventListener("mouseover", function function1() {
 enlargeFont5.addEventListener("mouseout", function function1() {
     enlargeFont5.style.scale = "1.00";
 });
-
 
