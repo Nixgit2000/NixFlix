@@ -125,12 +125,12 @@ h1 {
     text-align: center;
     background-color: black;
     color: white;
-    font-family: 'SW', sans-serif;
+    font-family: Arial;
     font-size: 2vh;
 }
 #copyright {
     color: white;
-    font-family: 'HP';
+    font-family: Arial;
 }
 #title1 {
     font-family: 'HP', sans-serif;
@@ -610,7 +610,7 @@ h1 {
     background-color: black;
     color: white;
     font-family: 'MIB', sans-serif;
-    font-size: 16vh;
+    font-size: 20vh;
 }
 [id*='top8'] {
     height: 12vh;
@@ -620,7 +620,7 @@ h1 {
 [id*='bottom8'] {
     
     display: block;
-    font-size: 10vh;
+    font-size: 13vh;
 }
 #MenInBlack1 {    
     background-image: url("./ASSETS/MIB1.png");
