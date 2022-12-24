@@ -131,7 +131,7 @@ h1 {
     background-color: black;
     color: white;
     font-family: 'FB', sans-serif;
-    font-size: 6vh;
+    font-size: 7vh;
 }
 [id*='FB'] {
     font-family: 'FB', sans-serif;
@@ -209,7 +209,7 @@ h1 {
 [id*='bottom3'] {
     
     display: block;
-    font-size: 2vh;
+    font-size: 3vh;
 }
 #LOTR1 {    
     background-image: url("./ASSETS/LOTR1.png");
