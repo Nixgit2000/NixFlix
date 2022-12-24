@@ -1,7 +1,13 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    caret-color: transparent;
 }
+body::-webkit-scrollbar {
+	display: none; 
+}
+
 
 @font-face { font-family: LOTR; src: url('./Fonts/LOTRfont1/LOTR.TTF'); } 
 h1 {
@@ -11,6 +17,11 @@ h1 {
 @font-face { font-family: LOTR2; src: url('./Fonts/LOTRfont/LOTR.TTF'); } 
 h1 {
    font-family: LOTR2;
+}
+
+@font-face { font-family: FB; src: url('./Fonts/FantasticBeasts/FB.otf'); } 
+h1 {
+   font-family: FB;
 }
 #header {
     font-size: 6vh;
@@ -24,6 +35,19 @@ h1 {
     width: 100vw;
     background: linear-gradient(grey, black);
 }
+
+
+
+
+#HP {
+    font-size: 3vh;
+    color: white;
+    font-family: monospace;
+    height: 20vh;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
 #TitleDivider {
     text-shadow: 2px 2px grey;
     padding: 1vh;
@@ -36,49 +60,6 @@ h1 {
     font-family: 'Harry Potter', sans-serif;
     font-size: 5vh;
 }
-#TitleDivider2 {
-    text-shadow: 2px 2px grey;
-    padding: 1vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: black;
-    color: white;
-    font-family: 'Harry Potter', sans-serif;
-    font-size: 5vh;
-}
-#TitleDivider3 {
-    text-shadow: 2px 2px grey;
-    padding: 1vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: black;
-    color: white;
-    font-family: 'LOTR2', sans-serif;
-    font-size: 5vh;
-}
-#ThreeDivider {
-    font-size: 3vh;
-    color: white;
-
-    height: 20vh;
-    background-color: blue;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-#EightDivider {
-    font-size: 3vh;
-    color: white;
-    font-family: monospace;
-    height: 20vh;
-    background-color: blue;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-}
-
 [id*='HP'] {
     font-family: 'Harry Potter', sans-serif;
     text-shadow: 2px 2px black;
@@ -129,8 +110,31 @@ h1 {
 #HP8 {    
     background-image: url("./ASSETS/HP8.png");
 }
+
+
+#FB {
+    font-size: 3vh;
+    color: white;
+
+    height: 20vh;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#TitleDivider2 {
+    text-shadow: 2px 2px grey;
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'FB', sans-serif;
+    font-size: 6vh;
+}
 [id*='FB'] {
-    font-family: 'Harry Potter', sans-serif;
+    font-family: 'FB', sans-serif;
     text-shadow: 2px 2px black;
     display: flex;
     justify-content: center;
@@ -149,7 +153,7 @@ h1 {
 [id*='bottom2'] {
     
     display: block;
-    font-size: 3vh;
+    font-size: 4vh;
 }
 #FB1 {    
     background-image: url("./ASSETS/FB1.png");
@@ -164,7 +168,73 @@ h1 {
     background-position: 50% 10%;
 }
 
+#LOTR {
+    font-size: 3vh;
+    color: white;
+
+    height: 20vh;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 [id*='LOTR'] {
+    font-family: 'LOTR2', sans-serif;
+    text-shadow: 2px 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 20vh;
+}
+#TitleDivider3 {
+    text-shadow: 2px 2px grey;
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'LOTR', sans-serif;
+    font-size: 3vh;
+}
+[id*='top3'] {
+    height: 12vh;
+    display: block;
+    font-size: 4vh;
+}
+[id*='bottom3'] {
+    
+    display: block;
+    font-size: 2vh;
+}
+#LOTR1 {    
+    background-image: url("./ASSETS/LOTR1.png");
+    background-position: 50% 50%;
+}
+#LOTR2 {    
+    background-image: url("./ASSETS/LOTR2.png");
+    background-position: 50% 50%;
+}
+#LOTR3 {    
+    background-image: url("./ASSETS/LOTR3.png");
+    background-position: 50% 50%;
+}
+
+
+#Hobbit {
+    font-size: 3vh;
+    color: white;
+
+    height: 20vh;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+[id*='Hobbit'] {
     font-family: 'LOTR', sans-serif;
     text-shadow: 2px 2px black;
     display: flex;
@@ -176,25 +246,38 @@ h1 {
     background-position: 50% 50%;
     height: 20vh;
 }
-[id*='top2'] {
+#TitleDivider4 {
+    text-shadow: 2px 2px grey;
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'LOTR2', sans-serif;
+    font-size: 4vh;
+}
+[id*='top4'] {
     height: 12vh;
     display: block;
     font-size: 4vh;
 }
-[id*='bottom2'] {
+[id*='bottom4'] {
     
     display: block;
-    font-size: 3vh;
+    font-size: 2vh;
 }
-#LOTR1 {    
-    background-image: url("./ASSETS/LOTR1.png");
-    background-position: 50% 10%;
+#Hobbit1 {    
+    background-image: url("./ASSETS/H1.png");
+    background-position: 50% 50%;
 }
-#LOTR2 {    
-    background-image: url("./ASSETS/LOTR2.png");
-    background-position: 50% 30%;
+#Hobbit2 {    
+    background-image: url("./ASSETS/H2.png");
+    background-position: 50% 50%;
 }
-#LOTR3 {    
-    background-image: url("./ASSETS/LOTR3.png");
-    background-position: 50% 10%;
+#Hobbit3 {    
+    background-image: url("./ASSETS/H3.png");
+    background-position: 50% 50%;
+    background-size: cover;
 }
