@@ -115,15 +115,16 @@ h1 {
     font-size: 7vh;
 }
 [id*='HP'] {
+
     font-family: 'Harry Potter', sans-serif;
     text-shadow: 2px 2px black;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
-    background-size: cover;
     background-position: 50% 50%;
+    background-size: cover;
+  
     height: 20vh;
 }
 
@@ -131,23 +132,25 @@ h1 {
     display: block;
 }
 [id*='top1'] {
-    height: 12vh;
+    height: 13vh;
     display: block;
     font-size: 4vh;
 }
 [id*='bottom1'] {
     
     display: block;
-    font-size: 2.2vh;
+    font-size: 2.1vh;
 }
 #HP1 {    
     background-image: url("./ASSETS/HP1.png");
+    background-position: 50% 0%;
 }
 #HP2 {    
     background-image: url("./ASSETS/HP2.png");
 }
 #HP3 {    
     background-image: url("./ASSETS/HP3.png");
+    background-position: 0% 50%;
 }
 #HP4 {    
     background-image: url("./ASSETS/HP4.png");
@@ -185,7 +188,7 @@ h1 {
     background-color: black;
     background-size: cover;
     background-position: 50% 65%;
-    color: rgb(58, 0, 34);
+    color: rgb(82, 10, 37);
     font-family: 'FB', sans-serif;
     font-size: 10vh;
 }
