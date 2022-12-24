@@ -22,6 +22,11 @@ a:active { text-decoration: none; color:whitesmoke; }
     100% {scale: 1}
 }
 
+@font-face { font-family: SpaceAge; src: url('./Fonts/SpaceAgeFont/SpaceAge.otf'); } 
+h1 {
+   font-family: SpaceAge;
+}
+
 @font-face { font-family: LOTR; src: url('./Fonts/LOTRfont1/LOTR.TTF'); } 
 h1 {
    font-family: LOTR;
@@ -52,6 +57,11 @@ h1 {
    font-family: ST;
 }
 
+@font-face { font-family: MIB; src: url('./Fonts/MenInBlackFont/Men\ In\ Black.ttf'); } 
+h1 {
+   font-family: MIB;
+}
+
 
 #header {
     position: fixed;
@@ -63,7 +73,7 @@ h1 {
     align-items: center;
     text-align: center;
     color: white;
-    height: 25vh;
+    height: 30vh;
     width: 100vw;
     background: linear-gradient(grey, black);
 }
@@ -74,7 +84,16 @@ h1 {
     background-color: black;
 
 }
-
+#subtitle {
+    position: absolute;
+    text-shadow:1px 1px rgb(6, 119, 33);
+    top: 22vh;
+    height: 100px;
+    width: 700px;
+    background-color: transparent;
+    z-index: 1000;
+    font-family: SpaceAge;
+}
 
 
 #HP {
@@ -88,7 +107,7 @@ h1 {
 }
 #TitleDividerN {
     text-shadow: 1px 1px grey;
-    height: 10vh;
+    height: 12vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,7 +123,7 @@ h1 {
 }
 #TitleDivider1 {
     text-shadow: 1px 1px white;
-    height: 10vh;
+    height: 12vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,7 +199,7 @@ h1 {
 }
 #TitleDivider2 {
     text-shadow: 1px 1px white;
-    height: 10vh;
+    height: 12vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,7 +269,7 @@ h1 {
 }
 #TitleDivider3 {
     text-shadow: 1px 1px green;
-    height: 10vh;
+    height: 12vh;
     padding: 1vh;
     display: flex;
     justify-content: center;
@@ -308,7 +327,7 @@ h1 {
 }
 #TitleDivider4 {
     text-shadow: 1px 1px brown;
-    height: 10vh;
+    height: 12vh;
     padding: 1vh;
     display: flex;
     justify-content: center;
@@ -355,7 +374,7 @@ h1 {
 }
 #TitleDivider5 {
     text-shadow: 1px 1px white;
-    height: 10vh;
+    height: 12vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -445,7 +464,7 @@ h1 {
 }
 #TitleDivider6 {
     text-shadow: 1px 1px white;
-    height: 10vh;
+    height: 12vh;
     padding: 1vh;
     display: flex;
     justify-content: center;
@@ -509,7 +528,7 @@ h1 {
 }
 #TitleDivider7 {
     text-shadow: 1px 1px blue;
-    height: 10vh;
+    height: 12vh;
     padding: 1vh;
     display: flex;
     justify-content: center;
@@ -537,4 +556,65 @@ h1 {
 #StarTrek2 {    
     background-image: url("./ASSETS/ST2.png");
     background-position: 50% 20%;
+}
+
+
+
+#MenInBlack {
+    font-size: 3vh;
+    color: white;
+
+    height: 20vh;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+[id*='MenInBlack'] {
+    font-family: 'MIB', sans-serif;
+    text-shadow: 2px 2px brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 20vh;
+}
+#TitleDivider8 {
+    text-shadow: 1px 1px brown;
+    padding: 1px;
+    height: 12vh;
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'MIB', sans-serif;
+    font-size: 16vh;
+}
+[id*='top8'] {
+    height: 12vh;
+    display: block;
+    font-size: 4vh;
+}
+[id*='bottom8'] {
+    
+    display: block;
+    font-size: 10vh;
+}
+#MenInBlack1 {    
+    background-image: url("./ASSETS/MIB1.png");
+    background-position: 50% 50%;
+}
+#MenInBlack2 {    
+    background-image: url("./ASSETS/MIB2.png");
+    background-position: 50% 50%;
+}
+#MenInBlack3 {    
+    background-image: url("./ASSETS/MIB3.png");
+    background-position: 50% 50%;
+    background-size: cover;
 }
