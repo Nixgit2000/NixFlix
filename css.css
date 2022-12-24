@@ -27,6 +27,12 @@ h1 {
 h1 {
    font-family: FB;
 }
+
+@font-face { font-family: SW; src: url('./Fonts/StarWarsFont/SW.otf'); } 
+h1 {
+   font-family: SW;
+}
+
 #header {
     font-size: 6vh;
     font-family: monospace;
@@ -286,4 +292,80 @@ h1 {
     background-image: url("./ASSETS/H3.png");
     background-position: 50% 50%;
     background-size: cover;
+}
+
+
+#SW {
+    font-size: 3vh;
+    color: white;
+    font-family: monospace;
+    height: 20vh;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+#TitleDivider5 {
+    text-shadow: 2px 2px grey;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'SW', sans-serif;
+    font-size: 5vh;
+}
+[id*='SW'] {
+    font-family: 'SW', sans-serif;
+    text-shadow: 2px 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 20vh;
+}
+
+[id*='title'] {
+    display: block;
+}
+[id*='top5'] {
+    height: 12vh;
+    display: block;
+    font-size: 4vh;
+}
+[id*='bottom5'] {
+    
+    display: block;
+    font-size: 1.9vh;
+}
+#SW1 {    
+    background-image: url("./ASSETS/SW1.png");
+}
+#SW2 {    
+    background-image: url("./ASSETS/SW2.png");
+}
+#SW3 {    
+    background-image: url("./ASSETS/SW3.png");
+}
+#SW4 {    
+    background-image: url("./ASSETS/SW4.png");
+}
+#SW5 {    
+    background-image: url("./ASSETS/SW5.png");
+}
+#SW6 {    
+    background-image: url("./ASSETS/SW6.png");
+}
+#SW7 {    
+    background-image: url("./ASSETS/SW7.png");
+}
+#SW8 {    
+    background-image: url("./ASSETS/SW8.png");
+}
+#SW9 {    
+    background-image: url("./ASSETS/SW9.png");
 }
