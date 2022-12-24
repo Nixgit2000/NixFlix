@@ -58,8 +58,8 @@ h1 {
 
 #header1 {
     display: block;
-    height: 25vh;
-    background-color: transparent;
+    height: 35vh;
+    background-color: black;
 
 }
 
@@ -68,22 +68,13 @@ h1 {
 #HP {
     font-size: 3vh;
     color: white;
-    font-family: monospace;
+
     height: 20vh;
     background-color: black;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
 }
-#HP1 {
-    font-size: 3vh;
-    color: white;
-    font-family: monospace;
-    height: 20vh;
-    background-color: black;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    animation: zoom 10s;
-}
+
 #TitleDivider1 {
     text-shadow: 1px 1px white;
     height: 10vh;

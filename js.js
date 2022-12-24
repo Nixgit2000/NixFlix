@@ -1,4 +1,4 @@
-var enlargeFont = document.getElementById("header");
+var enlargeFont = document.getElementById("logo");
 var enlargeFont1 = document.getElementById("title1");
 var enlargeFont2 = document.getElementById("title2");
 var enlargeFont3 = document.getElementById("title3");
