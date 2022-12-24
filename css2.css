@@ -3,9 +3,14 @@ body {
     padding: 0;
 }
 
-@font-face { font-family: JuneBug; src: url('./Fonts/LOTR.TTF'); } 
+@font-face { font-family: LOTR; src: url('./Fonts/LOTRfont1/LOTR.TTF'); } 
 h1 {
-   font-family: JuneBug;
+   font-family: LOTR;
+}
+
+@font-face { font-family: LOTR2; src: url('./Fonts/LOTRfont/LOTR.TTF'); } 
+h1 {
+   font-family: LOTR2;
 }
 #header {
     font-size: 6vh;
@@ -52,13 +57,13 @@ h1 {
     text-align: center;
     background-color: black;
     color: white;
-    font-family: 'JuneBug', sans-serif;
+    font-family: 'LOTR2', sans-serif;
     font-size: 5vh;
 }
 #ThreeDivider {
     font-size: 3vh;
     color: white;
-    font-family: Aniron;
+
     height: 20vh;
     background-color: blue;
     display: grid;
@@ -156,5 +161,40 @@ h1 {
 }
 #FB3 {    
     background-image: url("./ASSETS/FB3.png");
+    background-position: 50% 10%;
+}
+
+[id*='LOTR'] {
+    font-family: 'LOTR', sans-serif;
+    text-shadow: 2px 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 20vh;
+}
+[id*='top2'] {
+    height: 12vh;
+    display: block;
+    font-size: 4vh;
+}
+[id*='bottom2'] {
+    
+    display: block;
+    font-size: 3vh;
+}
+#LOTR1 {    
+    background-image: url("./ASSETS/LOTR1.png");
+    background-position: 50% 10%;
+}
+#LOTR2 {    
+    background-image: url("./ASSETS/LOTR2.png");
+    background-position: 50% 30%;
+}
+#LOTR3 {    
+    background-image: url("./ASSETS/LOTR3.png");
     background-position: 50% 10%;
 }
