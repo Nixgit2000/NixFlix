@@ -27,6 +27,12 @@ h1 {
    font-family: SpaceAge;
 }
 
+@font-face { font-family: HP; src: url('./Fonts/HarryPotterFont/HP.TTF'); } 
+h1 {
+   font-family: HP;
+}
+
+
 @font-face { font-family: LOTR; src: url('./Fonts/LOTRfont1/LOTR.TTF'); } 
 h1 {
    font-family: LOTR;
@@ -62,12 +68,17 @@ h1 {
    font-family: MIB;
 }
 
+@font-face { font-family: AL; src: url('./Fonts/AlienFont/AlienFont.ttf'); } 
+h1 {
+   font-family: AL;
+}
+
 
 #header {
     position: fixed;
     z-index: 1000;
     font-size: 6vh;
-    font-family: monospace;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,6 +132,9 @@ h1 {
     color: white;
     font-family: 'HP';
 }
+#title1 {
+    font-family: 'HP', sans-serif;
+}
 #TitleDivider1 {
     text-shadow: 1px 1px white;
     height: 12vh;
@@ -129,13 +143,16 @@ h1 {
     align-items: center;
     text-align: center;
     background-color: black;
-    color: silver;
-    font-family: 'Harry Potter', sans-serif;
-    font-size: 7vh;
+    background-size: cover;
+    background-position: 50% 65%;
+    color: rgb(189, 189, 189);
+    font-family: 'HP', sans-serif;
+    font-size: 10vh;
 }
+
 [id*='HP'] {
 
-    font-family: 'Harry Potter', sans-serif;
+    font-family: 'HP', sans-serif;
     text-shadow: 2px 2px black;
     display: flex;
     justify-content: center;
@@ -147,7 +164,7 @@ h1 {
     height: 20vh;
 }
 
-[id*='title'] {
+[id*='title1'] {
     display: block;
 }
 [id*='top1'] {
@@ -158,7 +175,7 @@ h1 {
 [id*='bottom1'] {
     
     display: block;
-    font-size: 2.1vh;
+    font-size: 3vh;
 }
 #HP1 {    
     background-image: url("./ASSETS/HP1.png");
@@ -617,4 +634,87 @@ h1 {
     background-image: url("./ASSETS/MIB3.png");
     background-position: 50% 50%;
     background-size: cover;
+}
+
+
+#AL {
+
+    color: white;
+    font-family: Arial;
+    height: 20vh;
+    background-color: black;
+    background-position: cover;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+#TitleDivider9 {
+    text-shadow: 1px 1px grey;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'AL', sans-serif;
+    font-size: 5vh;
+}
+
+
+[id*='AL'] {
+
+    font-family: arial;
+    text-shadow: 2px 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-position: 50% 50%;
+    background-size: cover;
+  
+    height: 20vh;
+}
+
+[id*='title'] {
+    display: block;
+}
+[id*='top9'] {
+    height: 13vh;
+    display: block;
+    font-size: 4vh;
+}
+[id*='bottom9'] {
+    
+    display: block;
+    font-size: 3vh;
+}
+#AL1 {    
+    background-image: url("./ASSETS/AL1.png");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#AL2 {    
+    background-image: url("./ASSETS/AL2.png");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#AL3 {    
+    background-image: url("./ASSETS/AL3.png");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#AL4 {    
+    background-image: url("./ASSETS/AL4.png");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#AL5 {    
+    background-image: url("./ASSETS/AL5.png");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#AL6 {    
+    background-image: url("./ASSETS/AL6.png");
+    background-size: cover;
+    background-position: 50% 50%;
 }
