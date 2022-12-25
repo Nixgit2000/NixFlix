@@ -16,6 +16,15 @@ a:hover { text-decoration: none; color:whitesmoke; }
 a:focus { text-decoration: none; color:whitesmoke; }
 a:active { text-decoration: none; color:whitesmoke; }
 
+#logo2 {
+    position: fixed;
+    top: 80vh;
+    left: 80vw;
+    z-index: 100000;
+    height: 10%;
+    width: 13%;
+}
+
 @keyframes zoom {
     0% {scale: 1}
     50% {scale: 1.01}
@@ -75,7 +84,7 @@ h1 {
 
 
 #header {
-    position: fixed;
+    position: absolute;
     z-index: 1000;
     font-size: 6vh;
 
@@ -638,7 +647,7 @@ h1 {
 
 
 #AL {
-
+    font-weight: bold;
     color: white;
     font-family: Arial;
     height: 20vh;
@@ -648,7 +657,7 @@ h1 {
     grid-template-columns: repeat(6, 1fr);
 }
 #TitleDivider9 {
-    text-shadow: 1px 1px grey;
+    text-shadow: 2px 2px rgb(1, 161, 1);
     height: 12vh;
     display: flex;
     justify-content: center;
