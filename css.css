@@ -82,6 +82,15 @@ h1 {
    font-family: AL;
 }
 
+@font-face { font-family: POA; src: url('./Fonts/PlanetOfApesFont/POA.ttf'); } 
+h1 {
+   font-family: POA;
+}
+
+@font-face { font-family: TM; src: url('./Fonts/TheMummyFont/TheMummy.ttf'); } 
+h1 {
+   font-family: TM;
+}
 
 #header {
     position: absolute;
@@ -726,4 +735,142 @@ h1 {
     background-image: url("./ASSETS/AL6.png");
     background-size: cover;
     background-position: 50% 50%;
+}
+
+
+#PlanetOfApes {
+    font-size: 3vh;
+    color: white;
+
+    height: 20vh;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+[id*='PlanetOfApes'] {
+    font-family: 'POA', sans-serif;
+    text-shadow: 2px 2px brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 20vh;
+}
+#TitleDivider10 {
+    text-shadow: 1px 1px yellow;
+    padding: 1px;
+    height: 12vh;
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: grey;
+    font-family: 'POA', sans-serif;
+    font-size: 5vh;
+}
+[id*='top10'] {
+    height: 12vh;
+    display: block;
+    font-size: 4vh;
+}
+[id*='bottom10'] {
+    
+    display: block;
+    font-size: 2.5vh;
+}
+#PlanetOfApes1 {    
+    background-image: url("./ASSETS/POA1.png");
+    background-position: 50% 50%;
+}
+#PlanetOfApes2 {    
+    background-image: url("./ASSETS/POA2.png");
+    background-position: 50% 50%;
+}
+#PlanetOfApes3 {    
+    background-image: url("./ASSETS/POA3.png");
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+#TheMummy {
+    font-size: 3vh;
+    color: white;
+
+    height: 20vh;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+[id*='TheMummy'] {
+    font-family: 'TM';
+    text-shadow: 2px 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 20vh;
+}
+#TitleDivider11 {
+    text-shadow: 1px 1px grey;
+    padding: 1px;
+    height: 12vh;
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: rgb(211, 151, 73);
+    font-family: 'TM', sans-serif;
+    font-size: 5vh;
+}
+[id*='top11'] {
+    height: 12vh;
+    display: block;
+    font-size: 4vh;
+}
+[id*='bottom11'] {
+    
+    display: block;
+    font-size: 3vh;
+}
+#TheMummy1 {    
+    background-image: url("./ASSETS/TM1.png");
+    background-position: 50% 50%;
+}
+#TheMummy2 {    
+    background-image: url("./ASSETS/TM2.png");
+    background-position: 50% 30%;
+}
+#TheMummy3 {    
+    background-image: url("./ASSETS/TM4.png");
+    background-position: 50% 50%;
+    background-size: cover;
+}
+#title11 {
+    display: block;
+}
+#one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2vh;
+}
+#two {
+    font-size: 4vh;
+}
+
+#big {
+    
+    display: inline;
+    font-size: 6vh;
 }
