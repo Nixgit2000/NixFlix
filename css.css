@@ -177,11 +177,12 @@ h1 {
     align-items: center;
     text-align: center;
     background: url("https://images.ctfassets.net/usf1vwtuqyxm/3QQaEkThAnIAiXveGhJYD9/f79a571dbe9fd456d65e783040601fdc/hogwarts-castle-.jpg");
-    background-position: 50% 80%;
+    background-position: 100% 100%;
     background-size: cover;
     color: rgb(189, 189, 189);
     font-family: 'HP', sans-serif;
     font-size: 10vh;
+    animation: slider2 200s infinite;
 }
 
 [id*='HP'] {
@@ -261,6 +262,7 @@ h1 {
     color: rgb(82, 10, 37);
     font-family: 'FB', sans-serif;
     font-size: 10vh;
+    animation: slider 200s infinite;
 }
 [id*='FB'] {
     font-family: 'FB', sans-serif;
@@ -326,12 +328,13 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: url("https://i.ytimg.com/vi/T9o-bx1KMpQ/maxresdefault.jpg");
+    background: url("https://wallpaperaccess.com/full/8168045.png");
     background-position: 50% 30%;
     background-size: cover;
     color: beige;
     font-family: 'LOTR', sans-serif;
     font-size: 4vh;
+    animation: slider2 200s infinite;
 }
 [id*='top3'] {
     height: 12vh;
@@ -392,6 +395,7 @@ h1 {
     color: rgb(44, 38, 29);
     font-family: 'LOTR2', sans-serif;
     font-size: 6vh;
+    animation: slider 200s infinite;
 }
 [id*='top4'] {
     height: 12vh;
@@ -434,13 +438,14 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: url("https://i.ytimg.com/vi/vyb3Xh06UL0/maxresdefault.jpg");
+    background: url("https://static.wikia.nocookie.net/8aa00fbd-ab46-4d12-8c88-06952c1e5c60");
     background-position: 50% 50%;
     background-size: cover;
 
     color: yellow;
     font-family: 'SW', sans-serif;
     font-size: 7vh;
+    animation: slider2 200s infinite;
 }
 [id*='SW'] {
     font-family: 'SW', sans-serif;
@@ -530,6 +535,7 @@ h1 {
     color: rgb(12, 236, 65);
     font-family: 'MX', sans-serif;
     font-size: 8vh;
+    
 }
 [id*='top6'] {
     height: 12vh;
@@ -596,6 +602,7 @@ h1 {
     color: white;
     font-family: 'ST', sans-serif;
     font-size: 10vh;
+    animation: slider2 200s infinite;
 }
 [id*='top7'] {
     height: 12vh;
@@ -654,6 +661,7 @@ h1 {
     color: white;
     font-family: 'MIB', sans-serif;
     font-size: 20vh;
+    animation: slider 200s infinite;
 }
 [id*='top8'] {
     height: 12vh;
@@ -703,6 +711,7 @@ h1 {
     color: white;
     font-family: 'AL', sans-serif;
     font-size: 5vh;
+    animation: slider2 200s infinite;
 }
 
 
@@ -801,6 +810,7 @@ h1 {
     color: grey;
     font-family: 'POA', sans-serif;
     font-size: 5vh;
+    animation: slider 200s infinite;
 }
 [id*='top10'] {
     height: 12vh;
@@ -862,6 +872,7 @@ h1 {
     color: rgb(255, 255, 255);
     font-family: 'TM', sans-serif;
     font-size: 5vh;
+    animation: slider2 200s infinite;
 }
 [id*='top11'] {
     height: 12vh;
@@ -937,13 +948,15 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: url("https://idigitalcitizen.files.wordpress.com/2011/06/transformers-3-logo-autobots-1280x1024.jpg");
+    background: url("https://i.pinimg.com/originals/05/49/f4/0549f4481e9ead80f6bd0174dc204a67.jpg");
     background-position: 50% 42%;
     background-size: cover;
     color: grey;
     font-family: 'TF', sans-serif;
     font-size: 7vh;
+    animation: slider 200s infinite;
 }
+
 [id*='top10'] {
     height: 12vh;
     display: block;
@@ -1010,6 +1023,7 @@ h1 {
     color: white;
     font-family: 'JP', sans-serif;
     font-size: 13vh;
+    animation: slider2 200s infinite;
 }
 [id*='top13'] {
     height: 12vh;
@@ -1041,7 +1055,7 @@ h1 {
 }
 #JurassicPark5 {    
     background-image: url("./ASSETS/JP5.png");
-    background-position: 50% 50%;
+    background-position: 30% 30%;
     background-size: cover;
 }
 
@@ -1076,14 +1090,17 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
     background: url("https://pbs.twimg.com/media/EVLolo6U0AEDHTM.jpg:large");
-    background-position: 50% 50%;
+    background-position: 0% 0%;
     background-size: cover;
     color: white;
     font-family: 'TA', sans-serif;
     font-size: 7vh;
+    animation: slider 200s infinite;
 }
+
+
+
 [id*='top14'] {
     height: 12vh;
     display: block;
@@ -1092,7 +1109,7 @@ h1 {
 [id*='bottom14'] {
     
     display: block;
-    font-size: 3vh;
+    font-size: 2.6vh;
 }
 #Avengers1 {    
     background-image: url("./ASSETS/TA1.png");
@@ -1111,4 +1128,17 @@ h1 {
     background-image: url("./ASSETS/TA4.png");
     background-position: 50% 50%;
     background-size: cover;
+}
+
+@keyframes slider {
+    0% {background-position: 0% 0%;}
+    50% {background-position: 100% 100%;}
+    100% {background-position: 0% 0%;}
+}
+
+
+@keyframes slider2 {
+    0% {background-position: 100% 100%;}
+    50% {background-position: 0% 0%;}
+    100% {background-position: 100% 100%;}
 }
