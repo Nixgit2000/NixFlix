@@ -10,6 +10,9 @@ var enlargeFont8 = document.getElementById("title8");
 var enlargeFont9 = document.getElementById("title9");
 var enlargeFont10 = document.getElementById("title10");
 var enlargeFont11 = document.getElementById("title11");
+var enlargeFont11a = document.getElementById("one");
+var enlargeFont11b = document.getElementById("two");
+var enlargeFont11c = document.getElementById("big");
 var enlargeFont12 = document.getElementById("title12");
 var enlargeFont13 = document.getElementById("title13");
 var enlargeFont14 = document.getElementById("title14");
@@ -99,6 +102,25 @@ enlargeFont11.addEventListener("mouseover", function function1() {
 });
 enlargeFont11.addEventListener("mouseout", function function1() {
     enlargeFont11.style.scale = "1.00";
+});
+
+enlargeFont11a.addEventListener("mouseover", function function1() {
+    enlargeFont11a.style.scale = "1.1";
+});
+enlargeFont11a.addEventListener("mouseout", function function1() {
+    enlargeFont11a.style.scale = "1.00";
+});
+enlargeFont11b.addEventListener("mouseover", function function1() {
+    enlargeFont11b.style.scale = "1.1";
+});
+enlargeFont11b.addEventListener("mouseout", function function1() {
+    enlargeFont11b.style.scale = "1.00";
+});
+enlargeFont11c.addEventListener("mouseover", function function1() {
+    enlargeFont11c.style.scale = "1.1";
+});
+enlargeFont11c.addEventListener("mouseout", function function1() {
+    enlargeFont11c.style.scale = "1.00";
 });
 
 enlargeFont12.addEventListener("mouseover", function function1() {

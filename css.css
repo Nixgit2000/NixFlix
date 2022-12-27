@@ -176,9 +176,9 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: black;
+    background: url("https://images.ctfassets.net/usf1vwtuqyxm/3QQaEkThAnIAiXveGhJYD9/f79a571dbe9fd456d65e783040601fdc/hogwarts-castle-.jpg");
+    background-position: 50% 80%;
     background-size: cover;
-    background-position: 50% 65%;
     color: rgb(189, 189, 189);
     font-family: 'HP', sans-serif;
     font-size: 10vh;
@@ -255,9 +255,9 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: black;
+    background: url("https://i.pinimg.com/originals/27/a7/e7/27a7e7da564f6bad14324a7af82ff8f4.jpg");
+    background-position: 50% 40%;
     background-size: cover;
-    background-position: 50% 65%;
     color: rgb(82, 10, 37);
     font-family: 'FB', sans-serif;
     font-size: 10vh;
@@ -326,7 +326,9 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: black;
+    background: url("https://i.ytimg.com/vi/T9o-bx1KMpQ/maxresdefault.jpg");
+    background-position: 50% 30%;
+    background-size: cover;
     color: beige;
     font-family: 'LOTR', sans-serif;
     font-size: 4vh;
@@ -377,15 +379,17 @@ h1 {
     height: 20vh;
 }
 #TitleDivider4 {
-    text-shadow: 1px 1px brown;
+    text-shadow: 1px 1px rgb(255, 255, 255);
     height: 12vh;
     padding: 1vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: black;
-    color: tan;
+    background: url("https://wallpapercave.com/wp/wp2374406.png");
+    background-position: 50% 40%;
+    background-size: cover;
+    color: rgb(44, 38, 29);
     font-family: 'LOTR2', sans-serif;
     font-size: 6vh;
 }
@@ -430,9 +434,10 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: black;
-    background-size: cover;
+    background: url("https://i.ytimg.com/vi/vyb3Xh06UL0/maxresdefault.jpg");
     background-position: 50% 50%;
+    background-size: cover;
+
     color: yellow;
     font-family: 'SW', sans-serif;
     font-size: 7vh;
@@ -585,7 +590,9 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: black;
+    background: url("https://media.npr.org/assets/img/2022/12/23/52259221868_b757d6cdea_k2_wide-946db536f329b9de338ef2a9a8768441c40d288f.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
     color: white;
     font-family: 'ST', sans-serif;
     font-size: 10vh;
@@ -641,7 +648,9 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: black;
+    background: url("https://parispeaceforum.org/wp-content/uploads/2021/10/NET-ZERO-SPACE-INITIATIVE-1.png");
+    background-position: 50% 40%;
+    background-size: cover;
     color: white;
     font-family: 'MIB', sans-serif;
     font-size: 20vh;
@@ -688,7 +697,9 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: black;
+    background: url("https://images.indianexpress.com/2022/06/Space-news-this-week-220619.jpg");
+    background-position: 80% 40%;
+    background-size: cover;
     color: white;
     font-family: 'AL', sans-serif;
     font-size: 5vh;
@@ -784,7 +795,9 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: black;
+    background: url("https://images.squarespace-cdn.com/content/v1/524310dee4b08d2a84faa6de/1582250652303-LL2H5VSW58CUGQ5OTQGU/hiking+in+muir+woods-26.jpg?format=1000w");
+    background-position: 30% 30%;
+    background-size: cover;
     color: grey;
     font-family: 'POA', sans-serif;
     font-size: 5vh;
@@ -835,7 +848,7 @@ h1 {
     height: 20vh;
 }
 #TitleDivider11 {
-    text-shadow: 1px 1px grey;
+    text-shadow: 1px 1px rgb(0, 0, 0);
     padding: 1px;
     height: 12vh;
     padding: 1vh;
@@ -843,8 +856,10 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: black;
-    color: rgb(211, 151, 73);
+    background: url("https://www.britishmuseum.org/sites/default/files/styles/bm_gallery_medium_700h/public/2022-06/Hieroglyphs_unlocking_ancient_Egypt_hero.jpg?itok=CoQzKChb");
+    background-position: 30% 30%;
+    background-size: cover;
+    color: rgb(255, 255, 255);
     font-family: 'TM', sans-serif;
     font-size: 5vh;
 }
@@ -922,7 +937,9 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: black;
+    background: url("https://idigitalcitizen.files.wordpress.com/2011/06/transformers-3-logo-autobots-1280x1024.jpg");
+    background-position: 50% 42%;
+    background-size: cover;
     color: grey;
     font-family: 'TF', sans-serif;
     font-size: 7vh;
@@ -987,7 +1004,9 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: black;
+    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/55cea026091667.5634f77aab167.jpg");
+    background-position: 50% 32%;
+    background-size: cover;
     color: white;
     font-family: 'JP', sans-serif;
     font-size: 13vh;
