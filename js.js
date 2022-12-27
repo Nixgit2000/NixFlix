@@ -8,6 +8,12 @@ var enlargeFont6 = document.getElementById("title6");
 var enlargeFont7 = document.getElementById("title7");
 var enlargeFont8 = document.getElementById("title8");
 var enlargeFont9 = document.getElementById("title9");
+var enlargeFont10 = document.getElementById("title10");
+var enlargeFont11 = document.getElementById("title11");
+var enlargeFont12 = document.getElementById("title12");
+var enlargeFont13 = document.getElementById("title13");
+var enlargeFont14 = document.getElementById("title14");
+var enlargeFont15 = document.getElementById("title15");
 var gifBackdrop6 = document.getElementById("TitleDivider6");
 
 
@@ -81,3 +87,44 @@ enlargeFont9.addEventListener("mouseout", function function1() {
     enlargeFont9.style.scale = "1.00";
 });
 
+enlargeFont10.addEventListener("mouseover", function function1() {
+    enlargeFont10.style.scale = "1.1";
+});
+enlargeFont10.addEventListener("mouseout", function function1() {
+    enlargeFont10.style.scale = "1.00";
+});
+
+enlargeFont11.addEventListener("mouseover", function function1() {
+    enlargeFont11.style.scale = "1.1";
+});
+enlargeFont11.addEventListener("mouseout", function function1() {
+    enlargeFont11.style.scale = "1.00";
+});
+
+enlargeFont12.addEventListener("mouseover", function function1() {
+    enlargeFont12.style.scale = "1.1";
+});
+enlargeFont12.addEventListener("mouseout", function function1() {
+    enlargeFont12.style.scale = "1.00";
+});
+
+enlargeFont13.addEventListener("mouseover", function function1() {
+    enlargeFont13.style.scale = "1.1";
+});
+enlargeFont13.addEventListener("mouseout", function function1() {
+    enlargeFont13.style.scale = "1.00";
+});
+
+enlargeFont14.addEventListener("mouseover", function function1() {
+    enlargeFont14.style.scale = "1.1";
+});
+enlargeFont14.addEventListener("mouseout", function function1() {
+    enlargeFont14.style.scale = "1.00";
+});
+
+enlargeFont15.addEventListener("mouseover", function function1() {
+    enlargeFont15.style.scale = "1.1";
+});
+enlargeFont15.addEventListener("mouseout", function function1() {
+    enlargeFont15.style.scale = "1.00";
+});

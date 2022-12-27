@@ -196,14 +196,14 @@ h1 {
     display: block;
 }
 [id*='top1'] {
-    height: 13vh;
+    height: 10vh;
     display: block;
     font-size: 4vh;
 }
 [id*='bottom1'] {
     
     display: block;
-    font-size: 3vh;
+    font-size: 3.5vh;
 }
 #HP1 {    
     background-image: url("./ASSETS/HP1.png");
@@ -269,14 +269,14 @@ h1 {
     height: 20vh;
 }
 [id*='top2'] {
-    height: 12vh;
+    height: 14vh;
     display: block;
     font-size: 4vh;
 }
 [id*='bottom2'] {
     
     display: block;
-    font-size: 4vh;
+    font-size: 4.8vh;
 }
 #FB1 {    
     background-image: url("./ASSETS/FB1.png");
@@ -528,7 +528,7 @@ h1 {
 [id*='bottom6'] {
     
     display: block;
-    font-size: 5vh;
+    font-size: 4vh;
 }
 #Matrix1 {    
     background-image: url("./ASSETS/M1.png");
