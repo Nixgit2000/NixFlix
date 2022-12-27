@@ -16,6 +16,8 @@ a:hover { text-decoration: none; color:white; }
 a:focus { text-decoration: none; color:white; }
 a:active { text-decoration: none; color:white; }
 
+a { color: white;}
+
 #logo2 {
     position: fixed;
     top: 80vh;

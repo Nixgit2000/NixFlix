@@ -19,23 +19,6 @@ var enlargeFont14 = document.getElementById("title14");
 var enlargeFont15 = document.getElementById("title15");
 var gifBackdrop6 = document.getElementById("TitleDivider6");
 
-var fontColor = document.getElementsByTagName("a");
-
-fontColor.addEventListener("mouseover", function function1() {
-    fontColor.style.color = "white";
-});
-fontColor.addEventListener("mouseout", function function1() {
-    fontColor.style.color = "white";
-});
-fontColor.addEventListener("click", function function1() {
-    fontColor.style.color = "white";
-});
-fontColor.addEventListener("mousemove", function function1() {
-    fontColor.style.color = "white";
-});
-addEventListener("load", function function1() {
-    fontColor.style.color = "white";
-})
 
 
 enlargeFont.addEventListener("mouseover", function function1() {
