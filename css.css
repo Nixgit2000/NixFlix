@@ -138,9 +138,7 @@ h1 {
 
 
 #HP {
-
     color: white;
-
     height: 20vh;
     background-color: black;
     display: grid;
@@ -325,7 +323,7 @@ h1 {
     background-color: black;
     color: beige;
     font-family: 'LOTR', sans-serif;
-    font-size: 4.5vh;
+    font-size: 4vh;
 }
 [id*='top3'] {
     height: 12vh;
