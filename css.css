@@ -154,7 +154,7 @@ h1 {
 }
 #TitleDividerN {
     text-shadow: 1px 1px grey;
-    height: 12vh;
+    height: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;
